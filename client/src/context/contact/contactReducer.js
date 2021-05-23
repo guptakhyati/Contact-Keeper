@@ -74,6 +74,11 @@ import {
                 error:null,
                 current:null
             }
+        // case SEARCH_LOGS:
+        //     return{
+        //         ...state,
+        //         logs:action.payload
+        //     }
         default:
               return state;
       }
